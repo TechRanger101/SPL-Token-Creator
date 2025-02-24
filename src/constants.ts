@@ -1,8 +1,8 @@
 const isMainnet = false;
 
-const MAINNET_BUNDLR: string = "https://node1.bundlr.network";
-const DEVNET_BUNDLR: string = "https://devnet.bundlr.network";
+const MAINNET_API_ADDRESS: string = "https://api.mainnet-beta.solana.com";
+const DEVNET_API_ADDRESS: string = "https://api.devnet.solana.com";
 
 export const NETWORK = isMainnet ? "mainnet-beta" : "devnet";
-export const BUNDLR_ADDRESS = isMainnet ? MAINNET_BUNDLR : DEVNET_BUNDLR;
+export const API_ADDRESS = isMainnet ? MAINNET_API_ADDRESS : DEVNET_API_ADDRESS;
 export const CREATOR_KEYPAIR_PATH = "./src/creator-keypair.json";
