@@ -1,0 +1,20 @@
+{
+  "name": "spl-token-creator",
+  "version": "1.0.0",
+  "description": "SPL token creator script",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.17.5",
+    "@solana/spl-token": "^0.4.12",
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
