@@ -84,6 +84,7 @@ const createAndMintTokens = async ({
     const createFungibleIx = createFungible(umi, {
       mint: mintSigner,
       name: tokenName,
+      symbol: tokenSymbol,
       uri: metadataUri,
       sellerFeeBasisPoints: percentAmount(0),
       decimals: tokenDecimals,
